@@ -1,0 +1,12 @@
+{
+  "name": "node-scalable-example",
+  "version": "0.0.0",
+  "description": "Node Scalable Example",
+  "title": "node-scalable-example",
+  "url" : "http://localhost:3000",
+  "sampleUrl": "http://localhost:3000",
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}
