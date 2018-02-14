@@ -16,7 +16,7 @@ class Env {
    * @return {String}
    */
   static get NODE_ENV() {
-    return process.env.NODE_ENV || 'development';
+    return (process.env.NODE_ENV || 'development');
   }
 
   /**

@@ -1,5 +1,5 @@
-const debug = require('../../../../config/debug')('web:v1:example:service');
-const redis = require('../../../../config/redis');
+const debug = require('../../../../../config/debug')('web:api:v1:example:service');
+const redis = require('../../../../../config/redis');
 
 /**
  * @module ExampleService

@@ -6,9 +6,9 @@ const router = new Router();
 debug('configuring routes');
 
 const application = require('./domains/application');
-const v1 = require('./domains/v1');
+const api = require('./domains/api');
 
-router.use('/', application.routes(), v1.allowedMethods());
-router.use('/v1', v1.routes(), v1.allowedMethods());
+router.use('/', application.routes(), api.allowedMethods());
+router.use('/api', api.routes(), api.allowedMethods());
 
 module.exports = router;
