@@ -1,4 +1,4 @@
-const debug = require('../../../../../config/debug')('web:api:v1:example:routes');
+const debug = require('../../../../../config/debug')('web:domains:api:v1:example:routes');
 const Router = require('koa-router');
 
 const router = new Router();

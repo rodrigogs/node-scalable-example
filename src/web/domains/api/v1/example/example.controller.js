@@ -1,4 +1,4 @@
-const debug = require('../../../../../config/debug')('web:api:v1:example:controller');
+const debug = require('../../../../../config/debug')('web:domains:api:v1:example:controller');
 const ExampleService = require('./example.service');
 
 /**
